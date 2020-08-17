@@ -1,0 +1,257 @@
+html{
+    scroll-behavior: smooth;
+}
+
+#loading{
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: black
+	url('./Preloader.gif')
+	 no-repeat center center;	
+	z-index: 99999;
+}
+
+
+
+body{
+    background-image: url("welcome_back.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0%;
+    color: black;
+    font-size: large;
+}
+
+.box{
+    margin-left: 0;
+    margin-top: 0;
+    padding: 7px;
+    margin-left: 60%;
+}
+
+.box a{
+    text-align: right;
+    margin:5px;
+    border:10px;
+    padding:10px 5%;
+    width: 100%;
+    background:transparent;
+    text-decoration: none;
+    color: black;
+}
+
+.box a:hover{
+    color: black;
+    background-color: #2ecc71;
+   border-radius: 45px;
+}
+.box a:active{
+    color: ivory;
+    background: lightslategrey;
+}
+
+
+.info{
+    margin-left:30px;
+    font-size:large;
+    font-family: cursive;
+    color: white;
+}
+
+#Home{
+    height: 700px;
+    width: 100%;
+    text-align: center;
+    text-shadow: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    color: whitesmoke;
+}
+
+#Home a{
+    text-align: center;
+    margin:5px;
+    border:5px;
+    padding:5px 3%;
+    width: 100%;
+    background:transparent;
+    text-decoration: none;
+    color: white;
+    border: 2px solid orange;
+}
+
+#Home a:hover{
+    border-radius: 15px;
+    color: black;
+    background-color: orange;
+}
+
+#Home a:active{
+    border-radius: unset;
+    color: ivory;
+    background: #808080;
+}
+
+#About{
+    height: 700px;
+    width: 100%;
+    background-image: url("./back2.jpg");
+    background: no-repeat;
+    background-size: 50px;
+    background-attachment: fixed;
+}
+
+#About p{
+    margin:70px;
+    color: black;
+    background: #2ecc71;
+    border: 2px solid #2ecc71;
+    padding: 30px;
+}
+
+#About p:hover{
+    color: whitesmoke;
+    background: lightslategrey;
+    border: 2px solid black;
+}
+
+#contact{
+    height: 800px;
+    width:100%;
+    display: inline-block;
+    color:black;
+}
+
+#contact h1,h5{
+    text-align: center;
+}
+
+#contact .box{
+    margin-left: 30%;
+    margin-right: 30%;
+    background:#2ecc71;
+}
+
+#contact .box .container{
+    margin-left: 0px;
+    margin-right: 0%;
+    padding: 2%;
+    color: black;
+    border: 2px solid black;
+    background: lightslategrey;
+}
+
+
+#contact .box .container input{
+      height: 30px;
+      width: 50%;
+      margin-bottom: 1%;
+      border: none;
+      border-bottom: 1px solid white;
+      outline: none;
+      padding-bottom: 5px;
+      text-align: center;
+      background: transparent;
+      color: white;
+}
+
+#contact .box .container textarea{
+    width:100%;
+    border: 1px solid black;
+    outline: none;
+    padding: 30px;
+    box-sizing: border-box;
+}
+#contact .box .container textarea:hover{
+  border: 2px solid lightslategrey;
+}
+
+#contact .box .container input:hover{
+    border: 2px solid black;
+}
+
+#contact .box .container input[type="submit"]{
+width: 20%;
+border: 2px solid #2ecc71;
+border-radius: 24px;
+background:#2ecc71;
+padding:6px;
+height:40px;
+cursor: pointer;
+color: black;
+}
+#contact .box .container input[type="submit"]:hover{
+border-radius: 15px;
+}
+
+#contact .box .container input[type="submit"]:active{
+    color: white;
+    background:lightslategrey;
+    border-radius: 24px;
+    }
+
+#Login{
+    height: 600px;
+    width: 80%;
+    
+}
+
+#Login a{
+    text-align: right;
+    margin:50px;
+    margin-left: 23%;
+    border:2px solid orange;
+    padding:30px 2%;
+    background:orange;
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    border-radius: 24px;
+}
+
+#Login a:hover{
+    color: black;
+    background-color: #ff8000;
+   border-radius: 45px;
+}
+
+#Login a:active{
+    border-radius: 24px;
+    color: ivory;
+    background: lightslategrey;
+}
+
+.arrow{
+    text-align: right;
+}
+.arrow a{
+    text-decoration: none;
+    color: white;
+}
+.arrow a:hover{
+    color: #2ecc71;
+}
+.arrow a:active{
+    color: lightslategrey;
+}
+
+.arrow a i{
+    height:20px;
+}
+
+.footer{
+    margin-bottom: 0;
+    margin-top:0%;
+    background:lightslategrey;
+    color:black;
+    padding: 1%;
+    text-align: center;
+  }
+  
+  .footer a{
+    color: #2ecc71;
+    text-decoration: none;
+  }
+  
